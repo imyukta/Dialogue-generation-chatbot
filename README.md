@@ -16,26 +16,26 @@
 
 **Files in the DVD**
  - RL
-     - Data <br/>
-           - all_words.txt <br/>
-           - tokenized_all_words.txt <br/>
-           - utterance_dict
+     - Data <br/> (Extracted data from movie corpus.) 
+           - all_words.txt <br/> (Removed all the stopwords, unwanted words and punctuations.)
+           - tokenized_all_words.txt <br/>(Tokenized all the words.)
+           - utterance_dict (Dictionary of all the words according to their frequency.)
      - Python <br/>
-           - RL <br/>
+           - RL <br/> (RL model creation)
                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- rl_model.py<br/>
                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- test.py <br/>
                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- train.py <br/>
            - config.py <br/> 
-           - data_parser.py <br/>
-           - data_reader.py <br/>
-           - feature_extracted.py <br/>
-           - model.py <br/>
-           - simulate.py <br/>
+           - data_parser.py <br/> (Parsed data)
+           - data_reader.py <br/> (read data)
+           - feature_extracted.py <br/> (extracted the features from the data)
+           - model.py <br/> (created whole model for training)
+           - simulate.py <br/> (simulate the conversation between the bot and the user)
            - test.py <br/>
            - train.py <br/>
-     - Saved_model <br/>
+     - Saved_model <br/> (saved models after training)
            - RL <br/>
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- checkpoint <br/>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- checkpoint <br/> 
                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- model-56-3000.index <br/>
                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- model-56-3000.meta <br/>
            - reversed <br/>
@@ -47,16 +47,16 @@
                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- model-77.index <br/>
                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- model-77.meta <br/>
            - word_vector.bin
-- chat_gui
+- chat_gui (created the interface of chatbot)
      - __init__.py
-- media 
+- media  (Images used in interface)
      - robot.png
      - send.png
      - user.png
-- spellcheck
+- spellcheck (checks the spellings of the output produced by the bot)
      - __init__.py
-- __init__.py
-- mapper.py
+- __init__.py (used trained model to predict the output from the bot)
+- mapper.py ( session handler)
 - README.md
 
 **Hardware Requirements: -**
