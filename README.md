@@ -17,35 +17,35 @@
 **Files in the DVD**
  - RL
      - Data <br/>
-           - all_words.txt
-           - tokenized_all_words.txt
+           - all_words.txt <br/>
+           - tokenized_all_words.txt <br/>
            - utterance_dict
      - Python
-           - RL
-               - rl_model.py
-               - test.py
-               - train.py
-           - config.py
-           - data_parser.py
-           - data_reader.py
-           - feature_extracted.py
-           - model.py
-           - simulate.py
-           - test.py
-           - train.py
+           - RL <br/>
+               - rl_model.py<br/>
+               - test.py <br/>
+               - train.py <br/>
+           - config.py <br/> 
+           - data_parser.py <br/>
+           - data_reader.py <br/>
+           - feature_extracted.py <br/>
+           - model.py <br/>
+           - simulate.py <br/>
+           - test.py <br/>
+           - train.py <br/>
      - Saved_model
-           - RL
-               - checkpoint
-               - model-56-3000.index
-               - model-56-3000.meta
-           - reversed
-               - checkpoint
-               - model-63.index
-               - model-63.meta
-           - seq2seq
-               - checkpoint
-               - model-77.index
-               - model-77.meta
+           - RL <br/>
+               - checkpoint <br/>
+               - model-56-3000.index <br/>
+               - model-56-3000.meta <br/>
+           - reversed <br/>
+               - checkpoint <br/>
+               - model-63.index <br/>
+               - model-63.meta <br/>
+           - seq2seq <br/>
+               - checkpoint <br/>
+               - model-77.index <br/>
+               - model-77.meta <br/>
            - word_vector.bin
 - chat_gui
      - __init__.py
