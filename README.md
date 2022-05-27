@@ -59,6 +59,23 @@
 - mapper.py ( session handler)
 - README.md
 
+![alt text](https://github.com/imyukta/Dialogue-generation-chatbot/blob/main/media/1.jpeg?raw=true)
+
+<br/>
+<br/>
+
+![alt text](https://github.com/imyukta/Dialogue-generation-chatbot/blob/main/media/2.jpeg?raw=true)
+
+<br/>
+<br/>
+
+![alt text](https://github.com/imyukta/Dialogue-generation-chatbot/blob/main/media/3.jpeg?raw=true)
+
+<br/>
+<br/>
+ 
+
+
 **Hardware Requirements: -**
 
 - Hard disk – 1 TB
