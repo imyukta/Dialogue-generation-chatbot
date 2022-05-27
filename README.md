@@ -16,24 +16,24 @@
 
 **Files in the DVD**
  - RL
-     - Data <br/> (Extracted data from movie corpus.) 
-           - all_words.txt <br/> (Removed all the stopwords, unwanted words and punctuations.)
-           - tokenized_all_words.txt <br/>(Tokenized all the words.)
+     - Data (Extracted data from movie corpus.) <br/>
+           - all_words.txt (Removed all the stopwords, unwanted words and punctuations.)<br/> 
+           - tokenized_all_words.txt (Tokenized all the words.) <br/>
            - utterance_dict (Dictionary of all the words according to their frequency.)
      - Python <br/>
-           - RL <br/> (RL model creation)
+           - RL (RL model creation)<br/> 
                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- rl_model.py<br/>
                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- test.py <br/>
                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- train.py <br/>
            - config.py <br/> 
-           - data_parser.py <br/> (Parsed data)
-           - data_reader.py <br/> (read data)
-           - feature_extracted.py <br/> (extracted the features from the data)
-           - model.py <br/> (created whole model for training)
-           - simulate.py <br/> (simulate the conversation between the bot and the user)
+           - data_parser.py (Parsed data)<br/> 
+           - data_reader.py (read data) <br/>
+           - feature_extracted.py (extracted the features from the data)<br/>
+           - model.py (created whole model for training)<br/> 
+           - simulate.py (simulate the conversation between the bot and the user)<br/>
            - test.py <br/>
            - train.py <br/>
-     - Saved_model <br/> (saved models after training)
+     - Saved_model (saved models after training)<br/>
            - RL <br/>
                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- checkpoint <br/> 
                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- model-56-3000.index <br/>
