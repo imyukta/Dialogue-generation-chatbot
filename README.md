@@ -16,7 +16,7 @@
 
 **Files in the DVD**
  - RL
-     - Data br
+     - Data <br/>
            - all_words.txt
            - tokenized_all_words.txt
            - utterance_dict
