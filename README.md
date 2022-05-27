@@ -20,11 +20,11 @@
            - all_words.txt <br/>
            - tokenized_all_words.txt <br/>
            - utterance_dict
-     - Python
+     - Python <br/>
            - RL <br/>
-               &nbsp;&nbsp;&nbsp;- rl_model.py<br/>
-               &nbsp;&nbsp;&nbsp;- test.py <br/>
-               &nbsp;&nbsp;&nbsp;- train.py <br/>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- rl_model.py<br/>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- test.py <br/>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- train.py <br/>
            - config.py <br/> 
            - data_parser.py <br/>
            - data_reader.py <br/>
@@ -33,19 +33,19 @@
            - simulate.py <br/>
            - test.py <br/>
            - train.py <br/>
-     - Saved_model
+     - Saved_model <br/>
            - RL <br/>
-               &nbsp;&nbsp;&nbsp;- checkpoint <br/>
-               &nbsp;&nbsp;&nbsp;- model-56-3000.index <br/>
-               &nbsp;&nbsp;&nbsp;- model-56-3000.meta <br/>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- checkpoint <br/>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- model-56-3000.index <br/>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- model-56-3000.meta <br/>
            - reversed <br/>
-               &nbsp;&nbsp;&nbsp;- checkpoint <br/>
-               &nbsp;&nbsp;&nbsp;- model-63.index <br/>
-               &nbsp;&nbsp;&nbsp;- model-63.meta <br/>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- checkpoint <br/>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- model-63.index <br/>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- model-63.meta <br/>
            - seq2seq <br/>
-               &nbsp;&nbsp;&nbsp;- checkpoint <br/>
-               &nbsp;&nbsp;&nbsp;- model-77.index <br/>
-               &nbsp;&nbsp;&nbsp;- model-77.meta <br/>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- checkpoint <br/>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- model-77.index <br/>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- model-77.meta <br/>
            - word_vector.bin
 - chat_gui
      - __init__.py
